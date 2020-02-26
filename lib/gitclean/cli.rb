@@ -6,6 +6,7 @@ require_relative "git_commands"
 
 module Gitclean
   class CLI
+    include GitCommands
     #
     # Return a structure describing the options.
     #

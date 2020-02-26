@@ -1,4 +1,4 @@
-module Gitclean
+module GitCommands
   def get_git_branches
     branches = %x`git branch`.split.select do |branch|
       branch != "*"
