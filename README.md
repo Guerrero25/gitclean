@@ -24,7 +24,7 @@ Or install it yourself as:
 
 ## Usage
 
-After installing the gem it can be can used with the `gitclean` command
+After installing the gem it can be used with the `gitclean` command
 
 `gitclean [options]`
 
