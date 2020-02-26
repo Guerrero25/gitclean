@@ -42,7 +42,7 @@ Defines the branches which do not must be deleted. It is a list of strings separ
 
 Prints the options list and how to use them
 
-#### `--help`
+#### `--version`
 
 Prints the cli version
 
