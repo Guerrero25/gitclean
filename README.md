@@ -1,8 +1,10 @@
 # Gitclean
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gitclean`. To experiment with that code, run `bin/console` for an interactive prompt.
+Gitclean is a command line tool to keep clean your git repositories deleting unused branches.
 
-TODO: Delete this and the text above, and describe your gem
+The aim of this project is aboard all the repetitive tasks that we have to do with git to keep the repository free of, for example, unused branches and tags.
+
+> By now, it is only deleting the branches but it will make more in future versions :).
 
 ## Installation
 
@@ -22,7 +24,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After installing the gem it can be can used with the `gitclean` command
+
+`gitclean [options]`
+
+### Options
+
+#### `--exemption`, default: `master,staging,develope`
+
+Example: `gitclean --exemption=branch-name`
+
+Defines the branches which do not must be deleted. It is a list of strings separated by comma
+
+#### `-h, --help`
+
+Prints the options list and how to use them
+
+#### `--help`
+
+Prints the cli version
 
 ## Development
 

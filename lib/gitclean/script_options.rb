@@ -9,7 +9,7 @@ module Gitclean
     end
 
     def define_options(parser)
-      parser.banner = "Usage: run.rb [options]"
+      parser.banner = "Usage: gitclean [options]"
       parser.separator ""
       parser.separator "Specific options:"
 
@@ -26,7 +26,7 @@ module Gitclean
       end
       # Another typical switch to print the version.
       parser.on_tail("--version", "Show version") do
-        puts "GitClean CLI version #{VERSION}"
+        puts "Gitclean CLI version #{VERSION}"
         exit
       end
     end
