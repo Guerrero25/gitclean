@@ -1,5 +1,7 @@
 # Gitclean
 
+[![Gem Version](https://badge.fury.io/rb/gitclean.svg)](https://badge.fury.io/rb/gitclean)
+
 Gitclean is a command line tool to keep clean your git repositories deleting unused branches.
 
 The aim of this project is aboard all the repetitive tasks that we have to do with git to keep the repository free of, for example, unused branches and tags.
