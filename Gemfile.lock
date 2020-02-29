@@ -6,15 +6,16 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    rake (10.5.0)
+    rake (13.0.1)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
   bundler (~> 1.17)
   gitclean!
-  rake (~> 10.0)
+  rake (~> 13.0)
 
 BUNDLED WITH
    1.17.2
